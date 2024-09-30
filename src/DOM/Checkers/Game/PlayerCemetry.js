@@ -1,5 +1,5 @@
 function PlayerCemetery() {
-    return <div id="PlayerCemetery"></div>
+    return <div id="PlayerCemetery" className="VisualComponent"></div>
 }
 
 export default PlayerCemetery;

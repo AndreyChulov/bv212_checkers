@@ -1,0 +1,28 @@
+.Checkers {
+    width: 90vw;
+    height: 90vh;
+
+    /* Отступы по краям, смещение, делающее див по центру экрана */
+    transform: translate(5vw, 5vh);
+}
+
+.Checkers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Checkers > div {
+    height: 100%;
+}
+
+.Checkers > div:nth-child(1),
+.Checkers > div:nth-child(3) {
+    width: 20%;
+}
+
+.Checkers > div:nth-child(2){
+    width: 60%;
+}
